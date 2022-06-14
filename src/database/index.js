@@ -56,7 +56,8 @@
 //       foto: 'https://i.ibb.co/jbyYWD8/paodequeijo.png',
 //     },
 //   ];
-import {connect} from 'mongoose';
+import pkg from 'mongoose';
+const connect = pkg.connect;
 
 export const connectDB = () => {
 

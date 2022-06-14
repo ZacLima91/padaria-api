@@ -1,7 +1,5 @@
 import express from 'express';
 import PaesController from '../controllers/Pao.controller.js';
-import verificarIdPao from '../middlewares/verificarIdPao.middleware.js';
-import verificarDadosDoPao from '../middlewares/verificarDadosDoPao.middleware.js';
 
 const paesController = new PaesController();
 
